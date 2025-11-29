@@ -1,0 +1,2 @@
+ALTER TABLE company_posts ADD COLUMN latitude DOUBLE PRECISION;
+ALTER TABLE company_posts ADD COLUMN longitude DOUBLE PRECISION;

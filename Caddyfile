@@ -1,0 +1,13 @@
+# Caddy reverse proxy configuration for subdomain routing
+# Install Caddy: https://caddyserver.com/docs/install
+
+# User app - user.smartpersona.local
+user.smartpersona.local {
+    reverse_proxy localhost:3000
+}
+
+# Admin app - admin.smartpersona.local
+admin.smartpersona.local {
+    reverse_proxy localhost:3001
+}
+

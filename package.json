@@ -1,0 +1,45 @@
+{
+  "name": "spylt-recreate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:user": "next dev -p 3000",
+    "dev:admin": "cd free-nextjs-admin-dashboard-main && npm run dev -- -p 3001",
+    "dev:all": "node scripts/dev.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@gsap/react": "^2.1.2",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "framer-motion": "^12.23.24",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "locomotive-scroll": "^5.0.0-beta.21",
+    "lucide-react": "^0.553.0",
+    "next": "15.5.3",
+    "next-intl": "^4.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-easy-crop": "^5.5.3",
+    "recharts": "^3.4.1",
+    "thai-address-database": "^0.0.30"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/locomotive-scroll": "^4.1.4",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4"
+  }
+}

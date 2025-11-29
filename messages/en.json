@@ -1,0 +1,660 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "dreamJobs": "Dream Jobs",
+        "contact": "Contact",
+        "joinUs": "Join Us",
+        "close": "Close"
+    },
+    "Common": {
+        "language": "Language"
+    },
+    "Onboarding": {
+        "tabs": {
+            "personal": "Personal Info & Job Interest",
+            "experience": "Education & Experience",
+            "skills": "Skills",
+            "social": "Social Media",
+            "other": "Other"
+        },
+        "sidebar": {
+            "editProfile": "Edit Profile",
+            "aiScore": "AI Score",
+            "myResults": "My Results",
+            "settingsMenu": "Settings Menu"
+        },
+        "header": {
+            "unnamed": "Unnamed",
+            "noEmail": "No email provided"
+        },
+        "profileScore": {
+            "score": "Profile Score",
+            "complete": "Your profile is complete!",
+            "incomplete": "Boost credibility by uploading a photo and completing your info"
+        },
+        "imageUpload": {
+            "cropProfile": "Crop Profile Image",
+            "cropCover": "Crop Cover Image"
+        },
+        "alerts": {
+            "selectImage": "Please select an image file",
+            "imageSize": "Image size must be less than 5MB",
+            "companyNotFound": "Company profile not found. Please complete company registration first.",
+            "companyNameRequired": "Company name is required. Please complete company information first.",
+            "updateLogoFailed": "Failed to update logo",
+            "uploadLogoFailed": "Failed to upload logo",
+            "saveSuccess": "Saved successfully",
+            "saveError": "Failed to save data",
+            "fetchError": "Failed to fetch data",
+            "loadingProfile": "Loading profile data...",
+            "fillRequired": "Please fill in all required fields"
+        },
+        "personal": {
+            "title": "Personal Information",
+            "subtitle": "Please fill in your information to help us display your profile correctly.",
+            "addressSubtitle": "Used for contact and resume display",
+            "jobPreferenceSubtitle": "Select your interested positions and availability",
+            "form": {
+                "prefix": "Prefix",
+                "selectPrefix": "Select Prefix",
+                "firstNameTh": "First Name (TH)",
+                "lastNameTh": "Last Name (TH)",
+                "firstNameEn": "First Name (EN)",
+                "lastNameEn": "Last Name (EN)",
+                "enterNameTh": "Enter Name (TH)",
+                "enterLastNameTh": "Enter Last Name (TH)",
+                "enterNameEn": "Enter Name (EN)",
+                "enterLastNameEn": "Enter Last Name (EN)",
+                "gender": "Gender",
+                "birthDate": "Date of Birth",
+                "nationality": "Nationality",
+                "enterNationality": "Enter Nationality",
+                "religion": "Religion",
+                "selectReligion": "Select Religion",
+                "phone": "Phone Number",
+                "enterPhone": "Enter Phone Number",
+                "email": "Email",
+                "enterEmail": "Enter Email",
+                "address": "Address",
+                "province": "Province",
+                "selectProvince": "Select Province",
+                "district": "District",
+                "selectDistrict": "Select District",
+                "subdistrict": "Subdistrict",
+                "selectSubdistrict": "Select Subdistrict",
+                "postalCode": "Postal Code",
+                "enterPostalCode": "Enter Postal Code",
+                "jobPreference": "Job Preference",
+                "industry": "Industry",
+                "selectIndustry": "Select Industry",
+                "position": "Position",
+                "selectPosition": "Select Position",
+                "workTime": "Availability",
+                "selectWorkTime": "Select Availability",
+                "addPreference": "Add Preference",
+                "addedPreferences": "Added Preferences",
+                "remove": "Remove",
+                "save": "Save Changes"
+            },
+            "options": {
+                "prefix": {
+                    "mr": "Mr.",
+                    "ms": "Ms.",
+                    "mrs": "Mrs.",
+                    "dr": "Dr."
+                },
+                "gender": {
+                    "male": "Male",
+                    "female": "Female",
+                    "unspecified": "Unspecified"
+                },
+                "religion": {
+                    "buddhism": "Buddhism",
+                    "christian": "Christianity",
+                    "islam": "Islam",
+                    "other": "Other"
+                },
+                "availability": {
+                    "immediate": "Immediate",
+                    "30days": "Within 30 days",
+                    "60days": "Within 60 days"
+                }
+            },
+            "validation": {
+                "required": {
+                    "prefix": "Please select prefix",
+                    "firstNameTh": "Please enter Thai first name",
+                    "lastNameTh": "Please enter Thai last name",
+                    "firstNameEn": "Please enter English first name",
+                    "lastNameEn": "Please enter English last name",
+                    "birthDate": "Please select date of birth",
+                    "nationality": "Please enter nationality",
+                    "phone": "Please enter phone number",
+                    "province": "Please select province",
+                    "district": "Please select district",
+                    "subdistrict": "Please select subdistrict",
+                    "postalCode": "Please enter postal code",
+                    "industry": "Please select industry",
+                    "position": "Please select position"
+                },
+                "invalidPhone": "Invalid phone number (9-15 digits)",
+                "invalidPostalCode": "Invalid postal code (5 digits)"
+            }
+        },
+        "educationExperience": {
+            "education": {
+                "title": "Education",
+                "subtitle": "Add your educational background",
+                "listTitle": "Education List",
+                "form": {
+                    "school": "School / University",
+                    "enterSchool": "Enter School Name",
+                    "degree": "Degree",
+                    "enterDegree": "Enter Degree",
+                    "major": "Major (Optional)",
+                    "enterMajor": "Enter Major",
+                    "startDate": "Start Year",
+                    "endDate": "End Year",
+                    "description": "Description (Optional)",
+                    "enterDescription": "Enter Description",
+                    "add": "Add Education",
+                    "edit": "Edit Education",
+                    "save": "Save Education",
+                    "cancel": "Cancel",
+                    "delete": "Delete"
+                }
+            },
+            "experience": {
+                "title": "Work Experience",
+                "subtitle": "Add your work experience",
+                "listTitle": "Experience List",
+                "form": {
+                    "company": "Company",
+                    "enterCompany": "Enter Company Name",
+                    "position": "Position",
+                    "enterPosition": "Enter Position",
+                    "positionType": "Employment Type (Optional)",
+                    "enterPositionType": "Enter Employment Type",
+                    "startDate": "Start Date",
+                    "endDate": "End Date",
+                    "description": "Description (Optional)",
+                    "enterDescription": "Enter Description",
+                    "add": "Add Experience",
+                    "edit": "Edit Experience",
+                    "save": "Save Experience",
+                    "cancel": "Cancel",
+                    "delete": "Delete"
+                }
+            },
+            "aiDrafts": {
+                "title": "AI has prepared education and experience data for you",
+                "saveAll": "Confirm and Save All",
+                "saving": "Saving...",
+                "confirmSave": "Do you want to save all AI-suggested data?\n\nNote: If dates are unspecified, current date will be used.",
+                "recommended": "AI Recommended"
+            },
+            "validation": {
+                "school": "Please enter school name",
+                "degree": "Please enter degree",
+                "startDate": "Please select start date",
+                "endDate": "Please select end date",
+                "dateOrder": "End date must be after start date",
+                "company": "Please enter company name",
+                "position": "Please enter position"
+            },
+            "alerts": {
+                "fetchEducationError": "Failed to load education data",
+                "fetchExperienceError": "Failed to load experience data",
+                "saveEducationSuccess": "Education saved successfully",
+                "saveExperienceSuccess": "Experience saved successfully",
+                "deleteEducationSuccess": "Education deleted successfully",
+                "deleteExperienceSuccess": "Experience deleted successfully",
+                "deleteConfirm": "Are you sure you want to delete this item?",
+                "saveAllSuccess": "All items saved successfully",
+                "noItemsToSave": "No items to save",
+                "loadingEducation": "Loading education data...",
+                "loadingExperience": "Loading experience data..."
+            }
+        },
+        "skills": {
+            "title": "Skills",
+            "loading": "Loading skills...",
+            "aiRecommended": "AI Recommended",
+            "saving": "Saving...",
+            "saved": "Saved",
+            "empty": "No skills specified (type and press add)",
+            "form": {
+                "addSkill": "Add Skill",
+                "placeholder": "e.g. React, Communication, Leadership",
+                "add": "Add"
+            },
+            "note": "* Skills are saved immediately when added or removed",
+            "alerts": {
+                "saveError": "Failed to save skills"
+            }
+        },
+        "socialMedia": {
+            "title": "Connect Social Media",
+            "subtitle": "Connect accounts to analyze your personality",
+            "description": "Connect your social media accounts to let AI analyze your personality, attitude, and lifestyle to help companies know you better and increase your chances of getting a job that matches you.",
+            "connectButton": "Connect with Facebook",
+            "disconnectButton": "Disconnect",
+            "connectedSuccess": "Connected Successfully",
+            "accountInfo": "Account: {name} • {count} posts",
+            "analyzing": {
+                "title": "AI is analyzing your persona...",
+                "subtitle": "Processing data from your posts and activities",
+                "workStyle": "Analyzing data..."
+            },
+            "result": {
+                "title": "Personality Analysis Result (AI Persona)",
+                "viewPosts": "View Analyzed Posts",
+                "strengths": "Your Strengths",
+                "workStyle": "Work Style"
+            },
+            "modal": {
+                "loginTitle": "Log in with Facebook",
+                "requestAccess": "SmartPersona is requesting access to:",
+                "publicProfile": "Public Profile",
+                "publicProfileDesc": "Name, profile picture, and other public info.",
+                "postsActivities": "Posts & Activities",
+                "postsActivitiesDesc": "Required for AI personality analysis.",
+                "continueAs": "Continue as {name}",
+                "cancel": "Cancel",
+                "secureConnection": "Secure Connection • Privacy Protected",
+                "verifying": "Verifying Credentials...",
+                "fetching": "Fetching Your Data...",
+                "waitMessage": "Please wait while we securely connect to Facebook servers.",
+                "successTitle": "Success!",
+                "successMessage": "You have successfully connected your Facebook account.",
+                "analyzedPostsTitle": "Analyzed Posts List",
+                "aiSummary": "AI Summary: {summary}"
+            },
+            "time": {
+                "justNow": "Just now",
+                "hoursAgo": "{hours} hours ago",
+                "yesterday": "Yesterday",
+                "daysAgo": "{days} days ago",
+                "weeksAgo": "{weeks} weeks ago",
+                "unknown": "Unknown"
+            }
+        },
+        "other": {
+            "title": "Other",
+            "portfolio": {
+                "title": "Portfolio",
+                "form": {
+                    "title": "Portfolio Title",
+                    "description": "Portfolio Description",
+                    "linkUrl": "Portfolio Link (URL)",
+                    "uploading": "Uploading...",
+                    "changeImage": "Change Image",
+                    "uploadImage": "Upload Portfolio Image",
+                    "saveChanges": "Save Changes",
+                    "cancel": "Cancel",
+                    "add": "Add Portfolio",
+                    "saving": "Saving..."
+                },
+                "listTitle": "Added Portfolios"
+            },
+            "links": {
+                "portfolio": "Portfolio Link",
+                "github": "GitHub",
+                "linkedin": "LinkedIn"
+            },
+            "languages": {
+                "title": "Languages",
+                "thai": "Thai",
+                "english": "English",
+                "chinese": "Chinese"
+            },
+            "additionalInfo": "Additional Info",
+            "save": "Save Data",
+            "alerts": {
+                "fetchError": "Failed to load portfolio data",
+                "loadError": "Error loading data, please try again",
+                "selectImage": "Please select an image file",
+                "fileSize": "File size must not exceed 5MB",
+                "uploadSuccess": "Image uploaded successfully",
+                "uploadError": "Failed to upload image",
+                "uploadException": "Error uploading image",
+                "enterTitle": "Please enter portfolio title",
+                "saveError": "Failed to save portfolio data",
+                "addSuccess": "Portfolio added successfully",
+                "saveException": "Error saving data",
+                "updateError": "Failed to update portfolio data",
+                "updateSuccess": "Portfolio updated successfully",
+                "updateException": "Error updating data",
+                "deleteError": "Failed to delete portfolio data",
+                "deleteSuccess": "Portfolio deleted successfully",
+                "deleteException": "Error deleting data",
+                "saveDataSuccess": "Data saved successfully"
+            }
+        },
+        "resumeUpload": {
+            "sections": {
+                "personal": "Personal Information",
+                "address": "Address",
+                "education": "Education History",
+                "experience": "Work Experience",
+                "skills": "Skills",
+                "social": "Social Media"
+            },
+            "options": {
+                "prefix": {
+                    "mr": "Mr.",
+                    "ms": "Ms.",
+                    "mrs": "Mrs.",
+                    "dr": "Dr."
+                },
+                "gender": {
+                    "male": "Male",
+                    "female": "Female",
+                    "unspecified": "Unspecified"
+                },
+                "religion": {
+                    "buddhism": "Buddhism",
+                    "christian": "Christianity",
+                    "islam": "Islam",
+                    "other": "Other"
+                }
+            },
+            "alerts": {
+                "fileSize": "File too large (max 10MB)",
+                "fileType": "Only PDF, Word, or images are supported",
+                "readError": "Cannot read resume file, please try again",
+                "connectError": "Cannot connect to AI server, please check internet connection",
+                "serverError": "AI server error, please try another file or try again later",
+                "saveError": "Error saving data, please try again",
+                "verify": {
+                    "title": "Please check for accuracy",
+                    "content": "Data below is automatically extracted by AI, may contain errors or be incomplete",
+                    "instruction": "Please verify and correct the data, and fill in fields marked as \"Required (*)\" before saving"
+                }
+            },
+            "form": {
+                "personal": {
+                    "title": "Personal Information",
+                    "prefix": "Prefix *",
+                    "firstNameTh": "First Name (Thai) *",
+                    "lastNameTh": "Last Name (Thai) *",
+                    "firstNameEn": "First Name (Eng)",
+                    "lastNameEn": "Last Name (Eng)",
+                    "additionalInfo": "Additional Info",
+                    "birthDate": "Birth Date *",
+                    "gender": "Gender *",
+                    "nationality": "Nationality *",
+                    "religion": "Religion",
+                    "contactInfo": "Contact Info",
+                    "phone": "Phone Number *",
+                    "email": "Email"
+                },
+                "address": {
+                    "title": "Current Address",
+                    "province": "Province *",
+                    "district": "District *",
+                    "subdistrict": "Subdistrict *",
+                    "postalCode": "Postal Code *"
+                },
+                "education": {
+                    "title": "Education History",
+                    "add": "Add Education",
+                    "institution": "Institution *",
+                    "degree": "Degree *",
+                    "major": "Major",
+                    "startYear": "Start Year",
+                    "endYear": "End Year",
+                    "empty": "No education data"
+                },
+                "experience": {
+                    "title": "Work Experience",
+                    "add": "Add Experience",
+                    "company": "Company/Organization *",
+                    "position": "Position *",
+                    "startDate": "Start Date",
+                    "endDate": "End Date",
+                    "description": "Job Description",
+                    "empty": "No work experience"
+                },
+                "skills": {
+                    "title": "Skills",
+                    "addLabel": "Add Skill (Press Enter)",
+                    "addPlaceholder": "Type skill and press Enter to add...",
+                    "empty": "No skills specified yet"
+                },
+                "actions": {
+                    "analyzing": "Analyzing data...",
+                    "import": "Import data from resume",
+                    "verifyTitle": "Verify Data",
+                    "verifySubtitle": "Correct data before saving",
+                    "requiredNote": "* Please fill in all required fields marked with (*)",
+                    "cancel": "Cancel",
+                    "saving": "Saving...",
+                    "saveAll": "Save All Data"
+                }
+            }
+        }
+    },
+    "Jobs": {
+        "searchResult": "Search Result",
+        "jobsFound": "{count} Jobs Found",
+        "searchPlaceholder": "Search role, skill, or company",
+        "filters": "Filters",
+        "sortBy": "Sort by",
+        "mostRecent": "Most Recent",
+        "highestSalary": "Highest Salary",
+        "mostApplicants": "Most Applicants",
+        "filterLocation": "Filter by location (e.g., Bangkok)",
+        "type": "Type",
+        "level": "Level",
+        "workMode": "Work mode",
+        "showing": "Showing",
+        "of": "of",
+        "noResults": "No results found — try removing some filters or searching for a shorter term",
+        "login": "Log in",
+        "getStarted": "Get Started",
+        "apply": "Apply Now",
+        "save": "Save Job",
+        "unsave": "Unsave Job",
+        "applied": "Applied",
+        "aiMatch": "AI Match",
+        "emptyState": {
+            "title": "No Job Selected",
+            "description": "Select a job from the left to view details, or use filters to find the right job.",
+            "searchChip": "Search/Filter on left",
+            "clickChip": "Click card for details",
+            "startTyping": "Start Typing",
+            "clearFilters": "Clear Filters",
+            "tip": "Tip: Click <b>Remote</b> or <b>Contract</b> from the chips above to filter quickly."
+        },
+        "placeholder": {
+            "companies": {
+                "title": "Companies Mode Coming Soon",
+                "body": "Curating a company list matching your skills and interests without leaving this page.",
+                "helper": "In the meantime, browse jobs or save ideas."
+            },
+            "nearMe": {
+                "title": "Jobs Near You",
+                "body": "Find jobs in your vicinity.",
+                "helper": "Open map to view job locations and details."
+            },
+            "aiMatching": {
+                "title": "AI Matching",
+                "body": "Let AI find the right job for you.",
+                "helper": "System will analyze your profile and match the best jobs."
+            },
+            "backToJobs": "Back to Jobs",
+            "openJobsTab": "Open Jobs Tab",
+            "preview": "preview"
+        },
+        "nearMe": {
+            "title": "Jobs Near You",
+            "foundJobs": "Found {count} jobs within {distance} km",
+            "filter": "Filter",
+            "recommended": "Recommended",
+            "clearAll": "Clear All",
+            "maxDistance": "Max Distance: {distance} km",
+            "noJobs": "No jobs found nearby",
+            "expandDistance": "Try expanding distance",
+            "waitingLocation": "Waiting for location permission...",
+            "youAreHere": "You are here",
+            "currentLocation": "Your current location",
+            "jobTypes": {
+                "Full-time": "Full-time",
+                "Part-time": "Part-time",
+                "Contract": "Contract",
+                "Freelance": "Freelance",
+                "Internship": "Internship"
+            },
+            "salaryRanges": {
+                "range1": "Under 15,000",
+                "range2": "15,000 - 25,000",
+                "range3": "25,000 - 40,000",
+                "range4": "40,000 - 60,000",
+                "range5": "60,000+"
+            },
+            "alerts": {
+                "locationDenied": "Unable to access your location. Defaulting to Bangkok.",
+                "geoNotSupported": "Geolocation is not supported by this browser.",
+                "cancel": "Not Now",
+                "allow": "Allow"
+            },
+            "map": {
+                "youAreHere": "You are here",
+                "yourLocation": "Your current location"
+            },
+            "card": {
+                "negotiable": "Negotiable",
+                "unknownCompany": "Unknown Company",
+                "match": "Match"
+            },
+            "units": {
+                "km": "km"
+            }
+        },
+        "client": {
+            "loading": "Loading jobs...",
+            "aiLoader": [
+                "Analyzing your profile...",
+                "Scanning for suitable jobs...",
+                "Comparing skills and experience...",
+                "Calculating compatibility scores...",
+                "Finalizing job recommendations..."
+            ],
+            "searchResult": "Search Results",
+            "jobsFound": "{count} Jobs Found",
+            "searchPlaceholder": "Search by title, company, or keywords",
+            "filters": "Filters",
+            "sortBy": "Sort by",
+            "mostRecent": "Most Recent",
+            "highestSalary": "Highest Salary",
+            "mostApplicants": "Most Applicants",
+            "filterLocation": "Filter by location...",
+            "type": "Type",
+            "level": "Level",
+            "workMode": "Work Mode",
+            "showResults": "Show Results",
+            "noResults": "No jobs found matching your criteria",
+            "showing": "Showing",
+            "of": "of",
+            "prev": "Prev",
+            "next": "Next",
+            "save": "Save",
+            "saved": "Saved",
+            "apply": "Apply",
+            "applied": "Applied",
+            "loginToView": "Login to view",
+            "salaryRange": "Salary Range",
+            "jobType": "Job Type",
+            "applicants": "Applicants",
+            "skill": "Skill",
+            "description": "Description",
+            "company": "Company",
+            "verifiedCompany": "Verified Company",
+            "viewCompanyProfile": "View Company Profile",
+            "contactPerson": "Contact Person",
+            "aiMatchReason": "AI Match Reason",
+            "guestMessage": "Guest: In-depth details (actual salary range, contact person, AI-match reason) will appear after logging in.",
+            "loginAlert": "You must log in before applying for this job.",
+            "loginButton": "LOGIN",
+            "aiDialog": {
+                "title": "Let AI recommend jobs for you",
+                "desc": "The system will use your real profile data as the primary source. You can specify additional requirements below to help improve recommendations.",
+                "desiredPosition": "Desired Position (Optional)",
+                "desiredPositionPlaceholder": "e.g. UX/UI Designer, Frontend Developer",
+                "expectedSalary": "Expected Salary (Optional)",
+                "expectedSalaryPlaceholder": "e.g. 30000, 50000-80000",
+                "cancel": "Cancel",
+                "startMatch": "Start Matching",
+                "matchResultTitle": "AI Job Recommendations",
+                "selectedJobTitle": "Selected Job Details",
+                "recommendedReason": "Recommended Reason",
+                "jobDetails": "Job Details",
+                "openDetails": "Open in Details Page",
+                "viewCompany": "View Company Info",
+                "noMatch": "No suitable jobs found. Try adjusting criteria or searching again.",
+                "clear": "Clear Results",
+                "matchAgain": "Match Again",
+                "close": "Close",
+                "viewDetails": "View Details"
+            },
+            "sections": {
+                "desc": "Description",
+                "resp": "Responsibilities",
+                "qual": "Qualifications",
+                "benefits": "Benefits"
+            }
+        },
+        "nav": {
+            "jobs": "Jobs",
+            "companies": "Companies",
+            "saved": "Saved",
+            "nearMe": "Jobs Near Me",
+            "aiMatching": "AI Matching"
+        },
+        "aiMatchingPage": {
+            "headline": "Find Your Dream Job <br /> Faster & Smarter",
+            "subheadline": "Our advanced AI analyzes your profile, skills, and experience to match you with the most suitable opportunities. Stop searching, start matching.",
+            "features": {
+                "precision": {
+                    "title": "Precision Matching",
+                    "desc": "Get matched based on skills, not just keywords."
+                },
+                "instant": {
+                    "title": "Instant Results",
+                    "desc": "See your top matches in seconds."
+                },
+                "growth": {
+                    "title": "Career Growth",
+                    "desc": "Find roles that align with your career goals."
+                }
+            },
+            "alert": {
+                "title": "Please complete your profile before matching",
+                "missing": "Missing information:",
+                "button": "Go to Profile →"
+            },
+            "cta": {
+                "checking": "Checking profile...",
+                "incomplete": "Complete Profile First",
+                "start": "Start Matching Now"
+            },
+            "results": {
+                "matchesFound": "{count} Matches Found",
+                "selectJob": "Select a job to view details",
+                "matchScore": "{score}% Match",
+                "similarity": "Similarity {score}%",
+                "apply": "Apply Now",
+                "save": "Save",
+                "jobDetails": "Job Details",
+                "companyInfo": "Company Info",
+                "responsibilities": "Responsibilities",
+                "posted": "Posted {days} days ago",
+                "rematch": "Re-match",
+                "applied": "Applied",
+                "saved": "Saved"
+            },
+            "error": "Unable to match jobs. Please try again."
+        }
+    }
+}
